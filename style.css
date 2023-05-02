@@ -1,0 +1,77 @@
+/* zona pattern e logo */
+
+#zona-pattern{
+    
+    color: rgb(71, 184, 254);
+    background-color:rgb(71, 184, 254);
+    height: 100px;
+    background-size: 400px;
+    background-image: url(img/pattern.png)
+}
+
+#logo-booleaner{
+    background-image: url(img/logo.svg);
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 140px;
+    background-position: center;
+}
+#font-autore-data{
+    font-size: 12px;
+}
+/* font articolo */
+
+#font-articolo{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* colore testo autore */
+#booleaner{
+    color: #1DA7E4;
+}
+
+.foto-tim {
+    display: flex;
+    width: 50%;
+    height: auto;
+}
+.crediti-foto{
+    font-size: 10px;
+}
+/* testo evidenziato */
+.giallo{
+    background-color: yellow;
+}
+/* tabella */
+.tabella{
+    width: 120%;
+    border: 10px;
+    border-spacing: 15px; 
+    text-align: left;
+    table-layout: fixed;    
+    background-color: #1DA7E4;  
+}
+/* foto finali */
+#foto-finale1{
+    margin: 0px;
+    background-image: url('img/monitor.jpg');
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 140%;
+    font-weight: normal;
+    line-height: 50px;
+    text-align: left;
+    width: 240px;
+    height: 150px;
+  }
+  #foto-finale2{
+    margin: 0px;
+    background-image: url(img/graph.jpg);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 140%;
+    font-weight: normal;
+    line-height: 50px;
+    text-align: left;
+    width: 240px;
+    height: 150px;
+  }
